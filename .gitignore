@@ -3,3 +3,4 @@
 data/
 client/src/constants/
 client/src/hooks/
+server/requests
