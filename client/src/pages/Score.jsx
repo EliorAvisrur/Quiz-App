@@ -52,7 +52,7 @@ const Score = () => {
               </h2>
               {item.value == item.answer ? (
                 <>
-                  <h2 className="mb-1 text-sm text-green-600 font-bold">
+                  <h2 className="mb-1 text-lg text-green-600 font-bold">
                     You were right!
                   </h2>
                   <h3 className="text-lg text-gray-700">
