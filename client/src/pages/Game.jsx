@@ -38,8 +38,8 @@ const Game = () => {
   
   return (
     <>
-      <div className="bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500">
-        <div className="flex h-screen flex-col items-center justify-center">
+      <div className="bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 h-screen">
+        <div className="flex h-screen max-h-screen overflow-y-scroll flex-col items-center justify-center">
           {loading ? (
             <div className="text-4xl font-extrabold italic text-white">
               <h1>Loading...</h1>

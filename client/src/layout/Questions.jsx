@@ -45,8 +45,11 @@ const Questions = ({ questions, setCanPass }) => {
           ...prev,
           {
             loc: questionIndex,
-            value: e.target.value,
+            locVal: currentQuestion.question,
+            value: Number(e.target.value),
+            valueVal: currentQuestion.options[Number(e.target.value)],
             answer: currentQuestion.answer,
+            answerVal:currentQuestion.options[currentQuestion.answer]
           },
         ]
       })
