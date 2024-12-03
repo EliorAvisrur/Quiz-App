@@ -1,0 +1,6 @@
+### GET all questions
+GET http://localhost:3000/api/v1/questions
+### GET all categories
+GET http://localhost:3000/api/v1/categories
+### GET questions by category, for example:mongo
+GET http://localhost:3000/api/v1/questions/express
